@@ -17,12 +17,14 @@ A simple Node.js application that demonstrates how to use OpenAI's Chat Completi
 ## Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/javascriptcebu/simple-chat
    cd simple-chat
    ```
 
 2. Install dependencies using bun (recommended) or npm:
+
    ```bash
    # Using bun (recommended)
    bun install
@@ -32,6 +34,7 @@ A simple Node.js application that demonstrates how to use OpenAI's Chat Completi
    ```
 
 3. Set up your environment variables:
+
    ```bash
    # Create a .env file in the root directory
    touch .env
@@ -71,6 +74,7 @@ model: "gpt-4.1", // or "gpt-4o"
 ```
 
 Available models:
+
 - `gpt-4.1` - Fast and cost-effective
 - `gpt-4o` - More capable but slower and more expensive
 
@@ -91,23 +95,15 @@ To customize the chat behavior, modify the messages array in `chat.js`:
 
 ```javascript
 messages: [
-  { role: "system", content: "You are a helpful assistant." },
-  { role: "user", content: "Your custom message here" }
-]
+  { role: 'system', content: 'You are a helpful assistant.' },
+  { role: 'user', content: 'Your custom message here' },
+];
 ```
 
 ## Dependencies
 
 - **openai**: Official OpenAI Node.js library
 - **dotenv**: Loads environment variables from .env file
-
-## License
-
-MIT
-
-## Author
-
-Sieg Balona <siegblink@gmail.com>
 
 ## Getting an OpenAI API Key
 
@@ -128,6 +124,7 @@ Sieg Balona <siegblink@gmail.com>
 ### Support
 
 If you encounter any issues, please check:
+
 - Your OpenAI API key is valid and has sufficient credits
 - Your Node.js version is compatible
-- All dependencies are properly installed 
+- All dependencies are properly installed
