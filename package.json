@@ -1,0 +1,21 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "openai",
+    "chat-completions"
+  ],
+  "license": "MIT",
+  "author": "Sieg Balona <siegblink@gmail.com>",
+  "type": "module",
+  "main": "chat.js",
+  "scripts": {
+    "start": "node chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "openai": "^4.103.0"
+  }
+}
